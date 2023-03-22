@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS cheatsheet</title>
+<link href="style.css" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Rampart+One&family=Righteous&family=Sono&display=swap');
+    </style>
+</head>
+<body>
+    <!--NAVIGATION-->
+    <nav1>
+                <!--HTML-->
+       
+        <a class="active1" href="#htmlconcepts">HTML Home</a>
+        <a href="#attributes">Attributes</a>
+        <a href="#classes">Classes</a>
+        <a href="#comments">Comments</a>
+        <a href="#elements">Elements</a>
+        <a href="#Entities">Entities</a>
+        <a href="#Favicon">Favicon</a>
+        <a href="#FilePaths">File Paths</a>
+        <a href="#Forms">Forms</a>
+        <a href="#Headings">Headings</a>
+        <a href="#IFrames">IFrames</a>
+        <a href="#Images">Images</a>
+        <a href="#Links">Links</a>
+        <a href="#Lists">Lists</a>
+        <a href="#Tables">Tables</a>
+        <a href="#Tags">Tags</a>
+        <a href="#TextFormatting">Text Formatting</a>
+        <a href="#Videos">Videos</a>
+</nav1>
+<nav2>
+        <!--CSS-->
+        <a class="active" href="#cssconcepts">CSS Home</a>
+        <a href="#Anatomy">Anatomy</a>
+        <a href="#Animations">Animations</a>
+        <a href="#Background">Background</a>
+        <a href="#BoxSizing">Box Sizing</a>
+        <a href="#Colors">Colors</a>
+        <a href="#Combinations">Combinations</a>
+        <a href="#Comments">Comments</a>
+        <a href="#Cursor">Cursor</a>
+        <a href="#Display">Display</a>
+        <a href="#FilterFunctions">Filter Functions</a>
+        <a href="#Flexbox">Flexbox</a>
+        <a href="#Floats">Floats</a>
+        <a href="#Grids">Grids</a>
+        <a href="#Inheritance">Inheritance</a>
+        <a href="#Margins">Margins</a>
+        <a href="#MathFunctions">Math Functions</a>
+        <a href="#Overflow">Overflow</a>
+        <a href="#Padding">Padding</a>
+        <a href="#Position">Position</a>
+        <a href="#Pseuodo-classes">Pseuodo-classes</a>
+        <a href="#Selectors">Selectors</a>
+        <a href="#Sizing">Sizing</a>
+        <a href="#TransformFunctions">Transform Functions</a>
+        <a href="#Transition">Transition</a>
+        <a href="#Typography">Typography</a>
+        <a href="#Units">Units</a>
+        <a href="#Variables">Variables</a>
+        <a href="#Visibility">Visibility</a>
+    </nav2>
+   <!--HTML CONCEPTS-->
+<div class="htmlconcepts">
+    <a id="htmlconcepts">
+    <h1>HTML CONCEPTS</h1>
+    </a>
+</div>
+   <!--Attributes-->
+   <div class="attributes">
+    <a id="attributes">
+    <h2>Attributes</h2></a>
+    <p>Attributes can be added to the opening tag of an HTML element to change its default behavior or provide additional data about it. Attributes consist of a name and a value in the format</p>
+</div>
+<div class="attributestable">
+    <table>
+        <tr>
+            <th rowspan="4">Attribute HTML structure</th>
+        </tr>
+    <tr>
+        <th>element</th>
+        <th>attribute</th>
+        <th>attribute value</th>
+    </tr>
+    <tr>
+        <td>&lt;img&gt;</td>
+        <td>&lt;src=&gt;</td>
+        <td>&lt;"cat.gif"&gt;</td>
+    </tr>
+</table>
+</div>
+<!--Classes-->
+<div class="classes">
+    <a id="classes">
+    <h2>Classes</h2>
+</a>
+    <p>Classes are HTML attributes used to select one or more elements for CSS styling or JavaScript purposes.</p>
+</div>
+<div class="classestable">
+    <table>
+        <tr>
+            <th rowspan="4">Class names</th>
+        </tr>
+    <tr>
+        <th>HTML syntax</th>
+        <th>CSS syntax</th>
+        <th>finished result</th>
+    </tr>
+    <tr>
+        <td>&lt;div class="funkytext"&gt;&lt;p&gt;funkytext&lt;/p&gt;</td>
+        <td>.funkytext {color: lightcoral;}</td>
+        <td id="example1">funkytext</td>
+    
+    </tr>
+</table>
+</div>
+<!--Comments-->
+<div class="comments">
+    <a id="comments">
+    <h2>Comments</h2>
+    </a>
+    <p>HTML comments are used for documentation and excluding markup from being rendered. Like with comments in other languages, developers may also use HTML comments for historical or debugging purposes.</p>
+</div>
+<div class="commentstable">
+<table> 
+    <tr>
+        <th>Using comment syntax</th>
+        <td>&lt;!--this will be invisble--&gt;</td>
+        <td>this will not</td>
+    </tr>
+    <tr>
+        <th>Output</th>
+        <td></td>
+        <td>this will not</td>
+    
+    </tr>
+</table>
+</div>
+<!--ELements-->
+<div class="elements">
+    <a id="elements">
+        <h2>Elements</h2>
+    </a>
+    <p>Elements are discrete components within an HTML document that generally consist of at least one tag but can have two tags with optional content. The tag name determines how the element will be rendered in the HTML document. Elements can also have any number of attributes.</p>
+</div>
+<div class="elementstable ">
+<table>
+<tr>
+    <th>Element Syntax</th>
+    <th>Uses</th>
+</tr>
+    <td>&lt;a&gt;</td>
+    <td>Creates a link to another page or to a location in the current page.</td>
+<tr>
+    <td>&lt;abbr&gt;</td>
+    <td>Indicates an acronym or abbreviation of a longer word or phrase.</td>
+</tr>
+<tr>
+    <td>&lt;acronym&gt;</td>
+    <td>Creates text that will be displayed when hovered over.</td>
+</tr>
+<tr>
+    <td>&lt;applet&gt;</td>
+    <td>Used to embed Java applets in HTML documents but is no longer supported.</td>
+</tr>
+<tr>
+    <td>&lt;audio&gt;</td>
+    <td>Represents an interface for adding audio content to the page.</td>
+</tr>
+<tr>
+    <td>&lt;b&gt;</td>
+    <td>Used to draw attention to a section of text, usually rendered in boldface.</td>
+</tr>
+<tr>
+    <td>&lt;blockquote&gt;</td>
+    <td>Represents a section of a document which contains a longer quotation, usually spanning multiple lines.</td>
+</tr>
+<tr>
+    <td>&lt;br&gt;</td>
+    <td>Represents a break in text. It is used when text needs to span multiple lines rather than being in-line, such as in an address.</td>
+</tr>
+<tr>
+    <td>&lt;button&gt;</td>
+    <td>Represents a button meant to be clicked by the user.</td>
+</tr>
+<tr>
+    <td>&lt;canvas&gt;</td>
+    <td>Creates graphics and animations in the page for JavaScript and WebGL to interact with</td>
+</tr>
+<tr>
+    <td>&lt;cite&gt;</td>
+    <td>Represents a citation to a referenced work such as a book, a song, or a painting.</td>
+</tr>
+<tr>
+    <td>&lt;code&gt;</td>
+    <td>Represents source code contained in the text.</td>
+</tr>
+<tr>
+    <td>&lt;datalist&gt;</td>
+    <td>Displays pre-defined values to a user while typing into an input box.</td>
+</tr>
+<tr>
+    <td>&lt;dd&gt;</td>
+    <td>Describes details found inside a <dl> element. It usually comes with at least one corresponding &lt;dt&gt; term tag.</td>
+</tr>
+<tr>
+    <td>&lt;del&gt;</td>
+    <td>Shows text that is to be removed from a document, usually rendered in strike-through text.</td>
+</tr>
+<tr>
+    <td>&lt;div&gt;</td>
+    <td>Represents a generic division of content. It has no semantic meaning, but will separate its contents from the rest of the document.</td>
+</tr>
+<tr>
+    <td>&lt;dl&gt;</td>
+    <td>Displays terms and details, commonly for metadata purposes.</td>
+</tr>
+<tr>
+    <td>&lt;dt&gt;</td>
+    <td>Describes a term found inside a <dl> tag. It usually comes with at least one corresponding &lt;dd&gt; details tag.</td>
+</tr>
+<tr>
+    <td>&lt;em&gt;</td>
+    <td>Represents text which is emphasized. Browsers will show the enclosed text in italics, by default."</td>
+</tr>
+<tr>
+    <td>&lt;embed&gt;</td>
+    <td>Inserts external content such as a video, image, page, and more.</td>
+</tr>
+<tr>
+    <td>&lt;form&gt;</td>
+    <td>Represents an interface to collect and submit user supplied information. This can include open ended text inputs, radio buttons, calendar information, and more.</td>
+</tr>
+<tr>
+    <td>&lt;h1 - h6&gt;</td>
+    <td>Represents a text heading for a section of content, with &lt;h1&gt; being the highest level of heading and &lt;h6&gt; being the lowest.</td>
+</tr>
+<tr>
+    <td>&lt;head&gt;</td>
+    <td>Represents a collection of metadata related to the current document. It is an immediate child of the `&lt;html&gt;` element and may include other tags such as &lt;title&gt;, &lt;link&gt;, &lt;style&gt;, and &lt;script&gt;.</td>
+</tr>
+<tr>
+    <td>&lt;hr&gt;</td>
+    <td>Represents a semantic, horizontal line break between text elements.</td>
+</tr>
+<tr>
+    <td>&lt;html&gt;</td>
+    <td>Represents the entire HTML document.</td>
+</tr>
+<tr>
+    <td>&lt;i&gt;</td>
+    <td>Used to set off HTML text for some reason, as idiomatic, technical, taxonomical and so on. Typically rendered as italic.</td>
+</tr>
+<tr>
+    <td>&lt;iframe&gt;</td>
+    <td>Represents a container used to embed a second web page inside the current one. It can be used for content from the same domain as the parent, or even from a second domain.</td>
+</tr>
+<tr>
+    <td>&lt;img&gt;</td>
+    <td>Displays an image on the web page.</td>
+</tr>
+<tr>
+    <td>&lt;input&gt;</td>
+    <td>Creates an interactive element, usually used within a form to allow user input. It can be used to make text boxes, color pickers, date pickers, and other UI elements.</td>
+</tr>
+<tr>
+    <td>&lt;kbd&gt;</td>
+    <td>Emphasizes characters to look like keys on a keyboard.</td>
+</tr>
+<tr>
+    <td>&lt;label&gt;</td>
+    <td>Identifies captions for other elements in an HTML document.</td>
+</tr>
+<tr>
+    <td>&lt;li&gt;</td>
+    <td>Represents a single item in a list of items. It and the other list items must be wrapped in an &lt;ol&gt;, &lt;ul&gt;, or &lt;menu&gt; tag.</td>
+</tr>
+<tr>
+    <td>&lt;link&gt;</td>
+    <td>Connects the current page with an external file.</td>
+</tr>
+<tr>
+    <td>&lt;menu&gt;</td>
+    <td>Represents an unordered list of items with more semantic meaning than a regular ul element.</td>
+</tr>
+<tr>
+    <td>&lt;meta&gt;</td>
+    <td>Represents an interface to provide metadata pertaining to the document. Metadata is data that is used to describe the document that contains it.</td>
+</tr>
+<tr>
+    <td>&lt;noscript&gt;</td>
+    <td>Displays content within if JavaScript is disabled in the browser or not supported.</td>
+</tr>
+<tr>
+    <td>&lt;object&gt;</td>
+    <td>Represents an external resource such as an image, a nested browsing context, or content to be handled by a browser plugin.</td>
+</tr>
+<tr>
+    <td>&lt;ol&gt;</td>
+    <td>Represents an ordered list of items.</td>
+</tr>
+<tr>
+    <td>&lt;option&gt;</td>
+    <td>Represents one option in a dropdown created by the select tag.</td>
+</tr>
+<tr>
+    <td>&lt;output&gt;</td>
+    <td>Displays the result of a calculation or user action.</td>
+</tr>
+<tr>
+    <td>&lt;p&gt;</td>
+    <td>Contains and displays a block of text that defines a paragraph.</td>
+</tr>
+<tr>
+    <td>&lt;param&gt;</td>
+    <td>Used to pass parameters to a resource defined in an object tag.</td>
+</tr>
+<tr>
+    <td>&lt;picture&gt;</td>
+    <td>Represents multiple possible image sources to be applied to different devices and screen-sizes.</td>
+</tr>
+<tr>
+    <td>&lt;q&gt;</td>
+    <td>Used to represent a brief inline quotation.</td>
+</tr>
+<tr>
+    <td>&lt;s&gt;</td>
+    <td>Represents strike-through text that is no longer need, accurate, or correct.</td>
+</tr>
+<tr>
+    <td>&lt;script&gt;</td>
+    <td>Used to insert runnable code into a document, usually JavaScript. Can be used both to include a script within the HTML document, or to load an external script from another source.</td>
+</tr>
+<tr>
+    <td>&lt;select&gt;</td>
+    <td>Creates a drop-down list for the user to select from a number of option elements.</td>
+</tr>
+<tr>
+    <td>&lt;source&gt;</td>
+    <td>Represents an interface for adding source content to the page.</td>
+</tr>
+<tr>
+    <td>&lt;span&gt;</td>
+    <td>Used for grouping related text or elements for styling and scripting.</td>
+</tr>
+<tr>
+    <td>&lt;strong&gt;</td>
+    <td>Used to identify text that is very important, or urgent.</td>
+</tr>
+<tr>
+    <td>&lt;style&gt;</td>
+    <td>Applies CSS styles to an HTML document.</td>
+</tr>
+<tr>
+    <td>&lt;table&gt;</td>
+    <td>Represents an interface for adding tabular data to the page. Tables are two dimensional, made up of rows and columns, and can contain many types of content.</td>
+</tr>
+<tr>
+    <td>&lt;textarea&gt;</td>
+    <td>Displays multi-line plain-text input.</td>
+</tr>
+<tr>
+    <td>&lt;u&gt;</td>
+    <td>Displays HTML text with a non-textual annotation. The default rendering of this is a solid underline.</td>
+</tr>
+<tr>
+    <td>&lt;ul&gt;</td>
+    <td>Represents an unordered list of items.</td>
+</tr>
+<tr>
+    <td>&lt;video&gt;</td>
+    <td>Represents an interface for adding video content to the page.</td>
+</tr>
+</table>
+</div>
+<!--Favicon-->
+<div class="favicon">
+    <a id="Favicon">
+        <h2>Favicon</h2>
+    </a>
+    <p>A favicon (short for “favorite icon”) is an icon that is displayed in the browser’s address bar and tab title for a website. It is used to help users quickly identify the website and distinguish it from other tabs or bookmarks.</p>
+</div>
+<div class="favicontable">
+    <table>
+        <tr>
+         <th>HTML syntax</th>
+         <th>explanation</th>
+        </tr>
+
+        <tr>
+            <td>&lt;head&gt;
+                &lt;link rel="shortcut icon" type="image/x-icon" href="/path/to/favicon.ico" /&gt;
+              &lt;/head&gt;&lt;/td &gt;
+              <td>The rel attribute tells the browser that the linked resource is a favicon; setting to "shortcut icon" should accommodate most versions of the major browsers.
+                The type attribute specifies the format of the linked resource (i.e., "image/x-icon" for favicons).
+                The href attribute specifies the file path of the favicon file.</td>
+        </tr>
+    </table>
+</div>
+
+
+</body>
+</body>
+</html>
